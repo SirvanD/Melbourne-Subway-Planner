@@ -56,3 +56,6 @@ h4 {
     visibility: visible;
     /* margin: auto; */
 }
+.stops_counter_p{
+    text-decoration: underline;
+}
