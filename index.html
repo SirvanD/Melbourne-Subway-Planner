@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Boogaloo&family=Fjalla+One&family=Reem+Kufi:wght@600&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melbourne Subway planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1></h1>
+
+    <div class="container">
+
+        <h1>Melbourne Subway planner</h1>
+
+    <form action="">
+        <label for="fname">Origin Station:</label><br>
+        <input type="search" list="mylist" id="origin_input_box" name="fname" value=""><br>
+        <label for="lname">Destination Stop:</label><br>
+        <input type="search" list="mylist" id="dest_input_box" name="lname" value=""><br><br>
+        
+    </form> 
+    <datalist id="mylist">
+   <option value="Flinders Street">
+   <option value="Richmond">
+   <option value="East Richmond">
+   <option value="Burnley">
+   <option value="Hawthorn">
+   <option value="Glenferrie">
+   <option value="Flagstaff">
+   <option value="Melbourne Central">
+   <option value="Parliament">
+   <option value="Kooyong">
+   <option value="Tooronga">
+   <option value="Southern Cross">
+   <option value="South Yarra">
+   <option value="Prahran">
+   <option value="Windsor">
+</datalist>
+    <button type="submit" value="Submit" id="submit_input_box">Find Route</button>
+    <button type="submit" value="Submit" id="clear_input_box">Clear Route</button>
+
+        
+
+        <div class="trainMap">
+            <h2>Lines in operation</h2>
+            <h3>Alamein line stops at:</h3>
+            <h4>Flinders Street - Richmond - East Richmond - Burnley - Hawthorn - Glenferrie</h4>
+            <h3>Glen Waverly line stops at:</h3>
+            <h4>Flagstaff - Melbourne Central - Parliament - Richmond - Kooyong - Tooronga</h4>
+            <h3>Sandringham line stops at:</h3>
+            <h4>Southern Cross - Richmond - South Yarra - Prahran - Windsor</h4>
+
+        </div>
+        <div class="route_show route_show_hidden">
+            <h2 class="origin_div"></h2>
+            <h2 class="dest_div"></h2>
+            <p class="stops_counter_p"></p>
+
+        </div>
+
+    
+
+</div>
+
+ <script src="melb_metro_pt_planner.js"></script>   
+</body>
+</html>
