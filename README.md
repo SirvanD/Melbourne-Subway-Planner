@@ -30,6 +30,6 @@ Melbourne Central -----> Parliament -----> Richmond
                                            
 5 stops total   
 ```
-###Screenshot
+
 ![Screenshot](Screenshot_Subway.png)
 
