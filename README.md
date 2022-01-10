@@ -7,6 +7,9 @@
 
 All 3 train lines intersect at **Richmond**, but there are NO other intersection points as trains run express.
 
+
+
+
 ```
                            Flinders Street - Richmond - East Richmond - Burnley - Hawthorn - Glenferrie
                                                 ||
@@ -26,6 +29,7 @@ Melbourne Central -----> Parliament -----> Richmond
                                            Richmond -----> South Yarra -----> Prahran -----> Windsor
                                            
 5 stops total   
-
+```
 ###Screenshot
 ![Screenshot](Screenshot_Subway.png)
+
